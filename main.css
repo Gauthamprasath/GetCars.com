@@ -1,0 +1,14 @@
+.jumbotron{
+    text-align: center;
+    background: none;
+}
+
+.home-banner {
+    padding: 2em;
+    background-color:#ECF0F1;
+}
+
+.home-content{
+    background-color: #B3B6B7;
+    padding: 2em;
+}
