@@ -11,6 +11,7 @@
 </head>
 <body>
 <div>
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-custom sticky-top">
         <a class="navbar-brand" href="#">
             <img src="Images/icon.png" width="30px" height="30px" class="d-inline-block align-top">
@@ -55,6 +56,7 @@
             </div>
         </div>
     </nav>
+    <!--Jumbotron-->
     <div class="home-banner">
         <div class="row">
             <div class="col-sm-12">
@@ -66,6 +68,7 @@
                 </div>
             </div>
         </div>
+        <!--Home Carousel-->
         <div class="row">
             <div class="col"></div>
             <div class="col-md-8 col-sm-12">
@@ -122,13 +125,128 @@
             <div class="col"></div>
         </div>
     </div>
-    <!--<div class="home-content">-->
-        <!--<div class="row">-->
-            <!--<div class="col-sm-12 col-md-1 offset-md-1">-->
-                <!--<img  class="img-fluid" src="Images/bmw1.jpg">-->
+    <!--Dark Section Content-->
+    <div class="home-content">
+        <div class="row">
+            <!--<div class="col-sm-12 col-md-2">-->
+                <!--<img class="img-fluid" src="Images/sticker1.png">-->
             <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+            <div class="col-sm-12 col-md-6 offset-md-2">
+                <div class="row">
+                    <div class="col-sm-12 sticker-content-1">
+                        <p>Get cool stickers for your vehicle. Customize your ride with amazing logos, decals, graphics and many other cool stuffs. Millions of graphic stuffs to beast up your ride. You can also customize with your own creativeness.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 sticker-content-1">
+                        <p>Fine turbulence, wana need some gadgets to optimize the performance of your ride? Exhausts, Airs, Spoilers and and other mind blowing techs to upgrade your ride.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Small Carousel-->
+            <div class="col-sm-12 col-md-2">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Images/ic1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/ic2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/ic3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/ic4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/ic5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/ic6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+        <!--Get cool stuff btn-->
+        <div class="get-stuff-wrapper">
+            <button type="button" class="btn btn-outline-primary get-stuff-btn " data-toggle="modal" data-target="#getCoolStuff">Get Cool Stuff!</button>
+        </div>
+    </div>
+    <!--Bottom Content-->
+    <div class="bottom-content">
+        <div class="card-deck">
+            <div class="card">
+                <img src="Images/poster1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aston Martin DBS Superleggera breaks cover</h5>
+                    <p class="card-text">Aston Martin’s ‘Second Century’ plan is unravelling itself and if it is going to give us more along the likes of the DBS Superleggera, the Italians will certainly have a run for their money. </p>
+                    <p class="card-text"><a href="https://www.carwale.com/news/aston-martin-dbs-superleggera-breaks-cover/"><small class="text-muted">Read more</small></a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/poster2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jaguar Land Rover plans to invest Rs 1.2 billion dollars</h5>
+                    <p class="card-text">Jaguar Land Rover (JLR) plans to invest around Rs 1.2 billion dollars over the next three years for global operations. </p>
+                    <p class="card-text"><a href="https://www.carwale.com/news/jaguar-land-rover-plans-to-invest-rs-12-crore-over-next-three-years/"><small class="text-muted">Read more</small></a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/poster3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mercedes-AMG S63 Coupe revealed</h5>
+                    <p class="card-text">Mercedes-Benz continues their AMG onslaught in India with the introduction of second AMG-prepped performance vehicle in India. </p>
+                    <p class="card-text"><a href="https://www.carwale.com/news/mercedesamg-s63-coupe-explained-in-details/"><small class="text-muted">Read more</small></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="getCoolStuff" tabindex="-1" role="dialog" aria-labelledby="getCoolStuff" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Get Cool Stuff!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-sm-12 col-md-6 cool-modal-logo">
+                                <img src="Images/icon-s.png">
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 cool-modal-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="modalInputName">What's your name?</label>
+                                        <input type="text" class="form-control" id="modalInputName" placeholder="How should we call you?">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="modalInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="modalInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Get Cool Stuff</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

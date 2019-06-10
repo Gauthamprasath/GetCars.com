@@ -1,3 +1,64 @@
+/*Singnin Form*/
+body.signin-body{
+    background-color:#ECF0F1;
+}
+
+.container.signin-container{
+    margin-top: 3%;
+}
+
+.card.signin-card{
+    padding: 40px 0 20px;
+    background-color: #F4F6F7;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .30);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .30);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .30);
+}
+
+.signin-header{
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: inherit;
+}
+
+img.signin-img{
+    padding-bottom: 10px;
+    display: block;
+    margin:auto;
+}
+
+.signin-form{
+    padding-bottom: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.signin-chk-box{
+    float: left;
+}
+
+.signin-btn{
+    display: block;
+    margin: auto;
+}
+
+.signin-help{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: inherit;
+}
+
+.create-acc{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+/*Home*/
 .jumbotron{
     text-align: center;
     background: none;
@@ -9,6 +70,48 @@
 }
 
 .home-content{
-    background-color: #B3B6B7;
+    background-color:#D0D3D4;
     padding: 2em;
+}
+
+.sticker-content-1{
+    text-align: justify;
+}
+
+.get-stuff-wrapper{
+    display: block;
+    margin-top: 30px;
+}
+
+.btn.get-stuff-btn{
+    display: block;
+    margin: auto;
+}
+
+.cool-modal-logo{
+    display: block;
+    margin: auto;
+    align-content: center;
+    padding-bottom: 10px;
+}
+
+.cool-modal-form{
+    display: block;
+}
+
+/*Bottom Contents*/
+.bottom-content{
+    background-color:#ECF0F1;
+    padding: 2em;
+}
+
+.news-poster-content{
+    padding: 50px;
+    margin: auto;
+}
+
+.poster-img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
 }
