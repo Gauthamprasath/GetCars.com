@@ -57,7 +57,9 @@ img.signin-img{
     text-align: center;
 }
 
-
+body{
+    background-color: #ECF0F1;
+}
 /*Home*/
 .jumbotron{
     text-align: center;
@@ -66,10 +68,9 @@ img.signin-img{
 
 .home-banner {
     padding: 2em;
-    background-color:#ECF0F1;
 }
 
-.home-content{
+.darker-content{
     background-color:#D0D3D4;
     padding: 2em;
 }
@@ -100,7 +101,7 @@ img.signin-img{
 }
 
 /*Bottom Contents*/
-.bottom-content{
+.bottom-content-1{
     background-color:#ECF0F1;
     padding: 2em;
 }
@@ -114,4 +115,141 @@ img.signin-img{
     display: block;
     margin: auto;
     border-radius: 10px;
+}
+
+.new-release{
+    padding: 0 2em 2em;
+    background-color: #ECF0F1;
+}
+
+.new-rel-img{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 25px 2px rgba(0,0,0,0.5);
+}
+
+.new-rel-txt{
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: medium;
+    line-height: 25px;
+    padding: 35px;
+}
+
+.new-rel-jumbotron{
+    background-color:#ECF0F1;
+}
+
+.bmw-btn{
+    display: block;
+    margin: auto;
+}
+
+.footer{
+    background-color: #283747;
+}
+
+.footer-logo{
+    display: block;
+    margin: auto;
+    padding: 25px 0 10px;
+}
+
+.logo-txt{
+    letter-spacing: 5px;
+    display: block;
+    margin: auto;
+    font-size: x-large;
+    font-family: Calibri, serif;
+    color: #ECF0F1;
+}
+
+.footer-list{
+    text-decoration: none;
+}
+
+.footer ul{
+    list-style: none;
+    display: block;
+    margin: auto;
+}
+
+.footer ul li{
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: large;
+    letter-spacing: 3px;
+    color: #D0D3D4;
+}
+
+.fa-facebook-square{
+    color:#0E9AF9;
+}
+
+.fa-google-plus-square{
+    color: #c32f10;
+}
+
+.fa-instagram{
+    color: #A569BD;
+}
+
+.icon-pad{
+    padding: 10px;
+}
+
+.footer-end-left{
+    display:block;
+    margin: auto;
+    float: left;
+}
+
+.footer-end-right{
+    float: right;
+    display: block;
+    margin: auto;
+}
+
+.footer-dark{
+    background-color:#1B2631;
+}
+
+.footer-terms{
+    font-family: inherit;
+    color:#D0D3D4;
+}
+
+.footer-terms:hover{
+    text-decoration: none;
+    color:#7D3C98;
+}
+
+.home-icon{
+    color:#34495E;
+}
+
+.fa-copyright{
+    color:#04FCEB;
+}
+
+.fa-registered{
+    color:#04FCEB;
+}
+
+.fa-plus{
+    color:#D0D3D4;
+}
+
+.gp-copyright{
+    font-family: ;
+    color:#04FCEB;
+    font-size: large;
+}
+
+.gp-copyright:hover{
+    text-decoration: none;
+    color:#EC7063;
 }
