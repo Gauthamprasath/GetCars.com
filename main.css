@@ -211,6 +211,8 @@ body{
     float: right;
     display: block;
     margin: auto;
+    padding: 15px;
+
 }
 
 .footer-dark{
@@ -231,6 +233,10 @@ body{
     color:#34495E;
 }
 
+.home-icon:hover{
+    color:#E67E22;
+}
+
 .fa-copyright{
     color:#04FCEB;
 }
@@ -244,12 +250,25 @@ body{
 }
 
 .gp-copyright{
-    font-family: ;
+    font-family: 'Amatic SC', cursive;
     color:#04FCEB;
-    font-size: large;
+    font-size: x-large;
+    letter-spacing: 2px;
+    font-weight: bolder;
 }
 
 .gp-copyright:hover{
     text-decoration: none;
     color:#EC7063;
+}
+
+@media screen and (max-width: 500px){
+    .footer-end-right{
+        float: none;
+    }
+    .footer-end-left{
+        display: block;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
 }
